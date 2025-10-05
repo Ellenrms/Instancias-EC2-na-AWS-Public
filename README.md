@@ -42,29 +42,44 @@ O EBS é o serviço de armazenamento em blocos para EC2:
 Funciona como um disco rígido virtual.
 Pode ser expandido sem interromper o serviço.
 Alta durabilidade, com replicação automática.
+
 📊 Tipos de Volumes EBS
 gp3/gp2 (SSD de uso geral): equilíbrio entre custo e desempenho.
 io2/io1 (Provisioned IOPS SSD): alta performance para bancos de dados críticos.
 st1 (Throughput Optimized HDD): ideal para big data.
 sc1 (Cold HDD): baixo custo para dados raramente acessados.
+
+
 🔄 Boas Práticas de Gerenciamento
 Monitoramento com CloudWatch.
 Segurança com Security Groups e IAM Roles.
 Backups com snapshots de volumes EBS.
 Escalabilidade com Auto Scaling Groups + ELB.
+
+
 📚 Recursos Recomendados
 Documentação Amazon EC2
 Documentação Amazon EBS
 Documentação Amazon S3
 AWS Toolkit for Visual Studio
+
+
 ✅ Conclusão
 O gerenciamento de instâncias EC2 aliado ao armazenamento EBS e a integração com RDS forma a base para arquiteturas tradicionais na AWS.
 Quando combinado com S3, Lambda e DynamoDB, abre-se espaço para soluções serverless, escaláveis e altamente disponíveis.
 
+
 Dominar esses conceitos é essencial para qualquer profissional que deseja atuar com Cloud Computing.
+
+
+
+
 
 📌 Estrutura do Repositório
  📂 images
+ 
  ┃ ┣ EC2-EBS-RDS.png
+ 
  ┃ ┗ S3-Lambda-DynamoDB.png
+ 
  📜 README.md
